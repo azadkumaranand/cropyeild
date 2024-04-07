@@ -88,7 +88,7 @@
                     {% for state, crops in context3.mpcos.items %}
                     <tr>
                         <td>{{ state }}</td>
-                        <td style="text-overflow: ellipsis; max-width: 300px;overflow:auto;">{{crops}}</td>
+                        <td style="text-overflow: ellipsis;wrap-space:nowrap;overflow:auto;">{{crops}}</td>
                     </tr>
                     {% endfor %}
                 </table>
